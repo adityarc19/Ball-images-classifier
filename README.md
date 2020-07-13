@@ -17,6 +17,7 @@ window.open('data:text/csv;charset=utf-8,'+escape(urls.join('\n')));
 
 ```
 A sample batch of images looks like :
+
 ![sample batch of images][logo]
 
 [logo]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/Screenshot%202020-07-13%20at%2010.36.57%20PM.png
