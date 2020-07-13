@@ -1,15 +1,11 @@
 # Book genre classifier using cover pages. 
 
 This is an end to end project that predicts the genre of any book by looking at its cover page into one of five categories - 
-⋅⋅* Children
-
-⋅⋅* Sci-fi
-
-⋅⋅* Horror
-
-⋅⋅* Romance
-
-⋅⋅* Political
+* Children
+* Sci-fi
+* Horror
+* Romance
+* Political
 
 Implementation is done using the FastAI framework that is built on top of PyTorch. I have used this particular framework because it gave me a good way to clean my data that was scraped out of Google Images, which would have been a lot of work otherwise. Also, FastAI provides state of the art results with high computational power. 
 
