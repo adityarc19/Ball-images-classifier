@@ -1,5 +1,12 @@
 # Book genre classifier using cover pages 
 
+**Test on your own book covers using the [web app](https://book-genre-detector.onrender.com/)**.
+
+---
+*For a detailed explaination of the project, visit my [blog page](https://medium.com/swlh/judging-a-book-by-its-cover-the-deep-learning-way-94847c7c1274) !*
+
+---
+
 This is an end to end project that predicts the genre of any book by looking at its cover page into one of five categories - 
 * Children
 * Sci-fi
@@ -34,7 +41,7 @@ A sample batch of images looks like :
 ### Model
 
 For the model, I have used transfer learning, particularly a ResNet34 network. At first, I have used my input image data on the pre-trained layers and then un-trained all of them to train them again from scratch to see which approach gives better results. 
-Their is a lot of data cleaning performed before starting building the model because it had a lot of noisy and uncorrect data. Finally, I have experimented with multiple hyperparameter tunings to finally come up with the best model fit for our data.
+Their is a lot of data cleaning performed before starting to build the model because it had a lot of noisy and uncorrect data. Finally, I have experimented with multiple hyperparameter tunings to finally come up with the best model fit for our data.
 
 And the final result that I got is:
 
@@ -42,7 +49,7 @@ And the final result that I got is:
 
 [p]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/WhatsApp%20Image%202020-07-14%20at%2012.38.41%20AM.jpeg
 
-So I got a final accuracy of **98.7%** which is pretty amazing considering that our data was randomly scraped from Google Images which was very unclean.
+So I got an accuracy of **98.7%** which is pretty amazing considering that our data was randomly scraped from Google Images which was very unclean.
 
 ### Evaluation
 
@@ -54,21 +61,11 @@ To evaluate the model's performance, a confusion matrix comes in very handy.
 
 The top wrong predictions:
 
+![top wrongs][tw]
 
+[tw]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/Screenshot%202020-07-14%20at%2012.48.37%20AM.png
 
+Clearly, the model got most confused between horror and sci-fi book covers as it predicted 3 horror books to be of sci-fi genre. This is understandable because many a time the cover page images of both these genres look very similar and ambiguous even to a human eye to discriminate.
 
-
-
-
-
-
-
-
-
-
-
-
-
-For a detailed explaination of the model, visit my [blog page](https://medium.com/swlh/judging-a-book-by-its-cover-the-deep-learning-way-94847c7c1274) !
-
-Test on your own book covers using the [web app](https://book-genre-detector.onrender.com/).
+---
+---
