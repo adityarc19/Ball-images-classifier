@@ -40,9 +40,9 @@ Their is a lot of data cleaning performed before starting building the model bec
 
 ### Evaluation
 
-![confusion matrix][logo]
+![confusion matrix][pic]
 
-[logo]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/Screenshot%202020-07-14%20at%2012.27.01%20AM.png
+[pic]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/Screenshot%202020-07-14%20at%2012.27.01%20AM.png
 
 
 
