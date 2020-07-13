@@ -21,16 +21,19 @@ Steps to do this :
 2. After the page opens, right click and go to the ‘Inspect’ option that is provided in Google Chrome.
 3. In the console section, type in the above JS code.
 
+This downloads the image urls in a .csv file to the default path in your system. In this way, we download the five .csv files for the five categories of images that we are going to predict. 
+
 A sample batch of images looks like :
 
 ![sample batch of images][logo]
 
 [logo]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/Screenshot%202020-07-13%20at%2010.36.57%20PM.png
 
-For the coding environment, I have used Google Colab as it provides free GPU support that is essential for such deep learning projects.
 
 ### Model
-For the model, I have used a ResNet34 network. At first, I have used my input image data on the pre-trained layers and then un-trained all of them to train them again from scratch to see which approach gives better results. 
+For the model, I have used transfer learning, particularly a ResNet34 network. At first, I have used my input image data on the pre-trained layers and then un-trained all of them to train them again from scratch to see which approach gives better results. 
+Their is a lot of data cleaning performed before starting building the model because it had a lot of noisy and uncorrect data. Finally, I have experimented with multiple hyperparameter tunings to finally come up with the best model fit for our data.
+*For the coding environment, I have used Google Colab as it provides free GPU support that is essential for such deep learning projects.*
 
 
 
