@@ -16,6 +16,11 @@ urls = Array.from(document.querySelectorAll('.rg_i')).map(el=> el.hasAttribute('
 window.open('data:text/csv;charset=utf-8,'+escape(urls.join('\n')));
 
 ```
+Steps to do this :
+1. Go to Google Images and search for the kind of images you want.
+2. After the page opens, right click and go to the ‘Inspect’ option that is provided in Google Chrome.
+3. In the console section, type in the above JS code.
+
 A sample batch of images looks like :
 
 ![sample batch of images][logo]
