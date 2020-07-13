@@ -36,13 +36,25 @@ A sample batch of images looks like :
 For the model, I have used transfer learning, particularly a ResNet34 network. At first, I have used my input image data on the pre-trained layers and then un-trained all of them to train them again from scratch to see which approach gives better results. 
 Their is a lot of data cleaning performed before starting building the model because it had a lot of noisy and uncorrect data. Finally, I have experimented with multiple hyperparameter tunings to finally come up with the best model fit for our data.
 
-*For the coding environment, I have used Google Colab as it provides free GPU support that is essential for such deep learning projects.*
+And the final result that I got is:
+
+![training accuracy][p]
+
+[p]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/WhatsApp%20Image%202020-07-14%20at%2012.38.41%20AM.jpeg
+
+So I got a final accuracy of **98.7%** which is pretty amazing considering that our data was randomly scraped from Google Images which was very unclean.
 
 ### Evaluation
+
+To evaluate the model's performance, a confusion matrix comes in very handy.
 
 ![confusion matrix][pic]
 
 [pic]: https://github.com/adityarc19/Book-Genre-classifier/blob/master/images/Screenshot%202020-07-14%20at%2012.27.01%20AM.png
+
+The top wrong predictions:
+
+
 
 
 
