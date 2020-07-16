@@ -3,7 +3,7 @@
 **Test on your own book covers using the [web app](https://book-genre-detector.onrender.com/)**.
 
 ---
-*For a detailed explaination of the project, visit my [blog page](https://medium.com/swlh/judging-a-book-by-its-cover-the-deep-learning-way-94847c7c1274) !*
+*For a detailed explanation of the project, visit my [blog page](https://medium.com/swlh/judging-a-book-by-its-cover-the-deep-learning-way-94847c7c1274) !*
 
 ---
 
