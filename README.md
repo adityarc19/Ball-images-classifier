@@ -31,7 +31,7 @@ Steps to do this :
 
 This downloads the image urls in a .csv file to the default path in your system. In this way, we download the five .csv files for the five categories of images that we are going to predict. 
 
-The above scrapper JS code is taken from fastai's [lesson2-download.ipynb](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb).
+**The above scrapper JS code is taken from fastai's [lesson2-download.ipynb](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb).**
 
 A sample batch of images looks like :
 
